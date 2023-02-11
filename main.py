@@ -39,12 +39,14 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    mismatch = find_mismatch(text)
-    # Printing answer, write your code here
-    if mismatch == -1:
-        print("Success")
-    else:
-        print(mismatch + 1)
+    print(text)
+
+    # mismatch = find_mismatch(text)
+    # # Printing answer, write your code here
+    # if mismatch == -1:
+    #     print("Success")
+    # else:
+    #     print(mismatch + 1)
 
 
 if __name__ == "__main__":

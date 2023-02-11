@@ -30,6 +30,9 @@ def find_mismatch(text):
                 return i
                 
             pass
+    
+    if len(opening_brackets_stack) > 0:
+        return opening_brackets_stack[0][1]
 
     return -1
 
